@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="PersianDatePicker">
+        <attr name="se_pdp_year" format="integer" />
+        <attr name="se_pdp_month" format="integer" />
+        <attr name="se_pdp_day" format="integer" />
+        <attr name="se_pdp_max_year" format="integer" />
+        <attr name="se_pdp_min_year" format="integer" />
+        <attr name="se_pdp_text_color" format="color" />
+        <attr name="se_pdp_divider_color" format="color" />
+    </declare-styleable>
+
+
+</resources>

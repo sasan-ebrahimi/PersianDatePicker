@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.shawnlin.numberpicker.NumberPicker
+        android:id="@+id/np_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        app:np_dividerDistance="40dp"
+        app:np_dividerThickness="1dp"
+        app:np_textSize="16dp"
+
+        />
+
+    <com.shawnlin.numberpicker.NumberPicker
+        android:id="@+id/np_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/np_year"
+        android:layout_toEndOf="@+id/np_year"
+        android:layout_toRightOf="@+id/np_year"
+        app:np_dividerDistance="40dp"
+        app:np_textSize="16dp"
+        app:np_dividerThickness="1dp"/>
+
+    <com.shawnlin.numberpicker.NumberPicker
+        android:id="@+id/np_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/np_month"
+        android:layout_toEndOf="@+id/np_month"
+        android:layout_toRightOf="@+id/np_month"
+        app:np_dividerDistance="40dp"
+        app:np_textSize="16dp"
+        app:np_dividerThickness="1dp"/>
+</RelativeLayout>
