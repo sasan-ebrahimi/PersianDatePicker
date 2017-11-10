@@ -8,7 +8,7 @@ A Persian date picker that is completely customizable ...
 
 # Usage
 
-Step 1. Add the JitPack repository to your build file
+## Step 1. Add the JitPack repository to your build file
 Add it in your root build.gradle at the end of repositories:
 
 ```gradle
@@ -19,7 +19,7 @@ Add it in your root build.gradle at the end of repositories:
 		}
 	}
 ```
-Step 2. Add the dependency
+## Step 2. Add the dependency
 
 ```gradle
 	dependencies {
@@ -27,7 +27,7 @@ Step 2. Add the dependency
 	}
 ```
 
-Step 3. Use as XML
+## Step 3. Use as XML
 
 ```xml
 <com.sasanebrahimi.persiandatepicker.PersianDatePicker
@@ -56,3 +56,14 @@ Custom Attributes
 </com.sasanebrahimi.persiandatepicker.PersianDatePicker>
 ```
 
+## Attributes
+
+|attribute name|attribute description|
+|:-:|:-:|
+|se_pdp_day|The selected day of datepicker|
+|se_pdp_month|The selected month of datepicker|
+|se_pdp_year|The selected year of datepicker|
+|se_pdp_divider_color|Color of divider line between row of each column|
+|se_pdp_text_color|Color of datepicker texts|
+|se_pdp_max_year|Maximum value for year|
+|se_pdp_min_year|Minimum value for year|
