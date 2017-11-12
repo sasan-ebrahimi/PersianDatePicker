@@ -67,3 +67,12 @@ Custom Attributes
 |se_pdp_text_color|Color of datepicker texts|
 |se_pdp_max_year|Maximum value for year|
 |se_pdp_min_year|Minimum value for year|
+
+## Methods
+
+|Method name|Method description|
+|:-:|:-:|
+|getDateString(String seperator)|String - Returns complete date in string with given seperator like 1397-01-24 or 1397/01/24|
+|getDay()|int - Returns selected day of datepicker in int|
+|getMonth()|int - Returns selected month of datepicker in int|
+|getYear()|int - Returns selected year of datepicker in int|
